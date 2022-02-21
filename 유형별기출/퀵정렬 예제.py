@@ -34,3 +34,29 @@ def quick_sort(array, start, end):
 
 quick_sort(array, 0, len(array)-1)
 print(array)
+
+
+
+
+# 아래 나올거는 위에보다 좀 더 비효율적인데 
+# 위에는 피벗과의 비교를 최소화 하는 로직이 포함되어있는데
+# 아래는 피벗과의 비교를 최소화없이 다 하게 되어있어서 비효율 적이라고 할 수있다.
+# 대신 이해하기 쉽게 직관적이다.
+
+array = [5,7,9,0,3,1,6,2,4,8]
+
+def quick_sort(array):
+    # 리스트가 하나 이하의 원소만을 담고 있다면 종료
+    if len(array) <= 1:
+        return array
+    
+    pivot = array[0] # 피벗은 첫번째 원소로 한다.
+    tail = array[1:] # 피벗을 제외한 리스트
+
+    left_side = [ x for x in tail if x <= pivot] # 분활된 왼쪽부분
+    right_side = [x for x in tail if x > pivot] # 분할된 오른쪽 부분
+
+    # 분할이후 왼쪽 부분과 오른쪽 부분에서 각각 정렬을 수행하고, 전체 리스트를 반환
+    return quick_sort(left_side) + [pivot] + quick_sort(right_side)
+
+print(quick_sort(array))
