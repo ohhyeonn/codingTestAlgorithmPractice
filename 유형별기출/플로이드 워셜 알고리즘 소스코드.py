@@ -1,3 +1,5 @@
+# 신기하고 개쩌는 플로드이 워셜 알고리즘스 비용이 너무 비싸서 쓸때 써도 되는지 계산 잘해라
+
 INF = int(1e9) # 무한을 의미하는 값으로 10억을 설정
 
 # 노드의 개수 및 간선의 개수를 입력받기
@@ -23,6 +25,7 @@ for k in range(1, n+1):
     for a in range(1, n+1):
         for b in range(1, n+1):
             graph[a][b] = min (graph[a][b], graph[a][k] + graph[k][b])
+
 
 # 수행된 결과를 출력
 for a in range(1, n+1):
