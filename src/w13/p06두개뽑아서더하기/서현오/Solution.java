@@ -1,4 +1,4 @@
-package w13.p06두개뽑아서더하기.서현오;
+package w13.p06두개뽑아서더하기.서현오;
 
 
 import java.util.*;

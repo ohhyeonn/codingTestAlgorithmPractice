@@ -1,4 +1,4 @@
-package w13.p04수정렬하기2.서현오;
+package w13.p04수정렬하기2.서현오;
 
 import java.io.*;
 import java.util.*;
