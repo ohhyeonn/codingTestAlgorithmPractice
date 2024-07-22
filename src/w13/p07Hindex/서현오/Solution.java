@@ -1,5 +1,5 @@
 package w13.p07Hindex.서현오;
-
+//https://school.programmers.co.kr/learn/courses/30/lessons/42747
 class Solution {
     public int solution(int[] citations) {
         int answer = 0;
