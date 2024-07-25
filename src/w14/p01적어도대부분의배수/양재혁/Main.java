@@ -1,4 +1,4 @@
-package w14.p01적어도대부분의배수;
+package w14.p01적어도대부분의배수.양재혁;
 
 import java.io.*;
 import java.util.StringTokenizer;
