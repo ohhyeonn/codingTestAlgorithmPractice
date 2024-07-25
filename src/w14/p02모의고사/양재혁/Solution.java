@@ -1,4 +1,4 @@
-package w14.p02모의고사.양재혁
+package w14.p02모의고사.양재혁;
 
 import java.util.*;
 
