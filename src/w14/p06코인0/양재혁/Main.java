@@ -1,3 +1,5 @@
+package w14.p06코인0.양재혁;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

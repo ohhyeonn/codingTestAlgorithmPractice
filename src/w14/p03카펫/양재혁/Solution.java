@@ -1,3 +1,6 @@
+package w14.p03카펫.양재혁;
+
+
 class Solution {
     public int[] solution(int brown, int yellow) {
         int[] answer = new int[2];
