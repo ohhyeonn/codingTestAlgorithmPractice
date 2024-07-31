@@ -1,4 +1,4 @@
-package w15.p08체육복.서현오;
+package w14.p08체육복.서현오;
 import java.util.*;
 
 class Solution {
